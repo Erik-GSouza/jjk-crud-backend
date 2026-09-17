@@ -41,6 +41,6 @@ npm run dev
 {
   "nome": "Satoru Gojo",
   "email": "Feiticeiro",
-  "idade": Limitless
+  "idade": "Limitless"
 }
 ```
