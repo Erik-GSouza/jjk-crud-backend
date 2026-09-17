@@ -1,4 +1,4 @@
-# CRUD de Usuários com Node.js
+# CRUD de Personagens com Node.js
 
 Projeto simples usando Node.js, Express e Mongoose.
 
