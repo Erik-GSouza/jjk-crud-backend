@@ -7,11 +7,11 @@ Projeto simples usando Node.js, Express e Mongoose.
 ```text
 src/
 ├── controllers/
-│   └── userController.js
+│   └── personagemController.js
 ├── models/
-│   └── User.js
+│   └── Personagem.js
 ├── routes/
-│   └── userRoutes.js
+│   └── personagemRoutes.js
 └── server.js
 ```
 
@@ -29,18 +29,18 @@ npm run dev
 
 | Método | Rota | Ação |
 |---|---|---|
-| GET | /usuarios | Lista usuários |
-| GET | /usuarios/:id | Busca um usuário |
-| POST | /usuarios | Cria um usuário |
-| PUT | /usuarios/:id | Atualiza um usuário |
-| DELETE | /usuarios/:id | Exclui um usuário |
+| GET | /personagens | Lista personagem |
+| GET | /personagens/:id | Busca um personagem |
+| POST | /personagens | Cria um personagem |
+| PUT | /personagens/:id | Atualiza um personagem |
+| DELETE | /personagens/:id | Exclui um personagem |
 
 ## Exemplo de JSON
 
 ```json
 {
-  "nome": "João Silva",
-  "email": "joao@email.com",
-  "idade": 25
+  "nome": "Satoru Gojo",
+  "email": "Feiticeiro",
+  "idade": Limitless
 }
 ```
