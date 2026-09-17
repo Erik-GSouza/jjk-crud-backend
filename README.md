@@ -40,7 +40,7 @@ npm run dev
 ```json
 {
   "nome": "Satoru Gojo",
-  "email": "Feiticeiro",
-  "idade": "Limitless"
+  "categoria": "Feiticeiro",
+  "tecnica": "Limitless"
 }
 ```
